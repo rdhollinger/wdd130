@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Courgette&display=swap');
+
+root{
+    --primary-color: #90E0EF   ;
+    --secondary-color: #CAF0F8 ;
+    --accent1-color: #03045E;
+    --accent2-color: #0077B6;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+nav a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #CAF0F8;
+    color: #0077B6;
+}
+.home-title{
+    color: #CAF0F8;
+}
+h4{
+    color: #03045E;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: #CAF0F8;
+}
+header{
+    background-color: #03045E;
+}
+.book, .join{
+    background-color: #CAF0F8;
+    color: #03045E;
+    text-decoration: none;
+}
+.book:hover, join:hover{
+    background-color: #0077B6;
+    color: whitesmoke;
+}
+body{
+    background-color: #CAF0F8;
+    color: #03045E;
+}
+.msg{
+    background-color: #CAF0F8;
+}
+.msg h2{
+    color: #03045E;
+}
+.msg p{
+    color: #03045E;
+}
+footer{
+    background-color: #CAF0F8;
+    color: #03045E;
+}
+footer a{
+    color: #03045E;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #03045E;
+    color: #CAF0F8;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+.icon{
+    width: 80px;
+}
