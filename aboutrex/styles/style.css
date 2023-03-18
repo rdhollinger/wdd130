@@ -13,7 +13,7 @@ content {
 }
 body{
     display: grid;
-    grid-template-columns: 1f 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #c4f2f2;
 }
 header {
