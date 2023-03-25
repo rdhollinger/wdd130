@@ -21,11 +21,11 @@ header {
     display: grid;
     grid-template-columns: 150px auto; 
 }
-nav {
+/*nav {
     display: flex;
     justify-content: space-around;
 }
-nav a {
+/*nav a {
     text-decoration: none;
     text-align: center;
     padding: 35px;
@@ -34,10 +34,39 @@ nav a {
     font-size: 18px;
     font-weight: bold;
 }
-nav a:hover{
+/*nav a:hover{
     background-color: #234059;
     color: #F294A5;
-}
+}*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:#f2ca80;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:#234059;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:#234059 ;
+    color:#F294A5;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#234059 ;
+    color:#c4f2f2 ;
+  }
 .logo {
     width: 100px;
 }
