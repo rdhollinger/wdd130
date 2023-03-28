@@ -20,12 +20,13 @@ header {
     background-color: #f2ca80;
     display: grid;
     grid-template-columns: 150px auto; 
+
 }
 nav {
     display: flex;
     justify-content: space-around;
 }
-nav a {
+/*nav a {
     text-decoration: none;
     text-align: center;
     padding: 35px;
@@ -33,6 +34,7 @@ nav a {
     font-family: 'Akaya Telivigala', Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    
 }
 nav a:hover{
     background-color: #234059;
@@ -43,17 +45,19 @@ nav a:hover{
     background-color:#f2ca80;
     overflow: hidden;
     display: flex;
+    font-weight: bold;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     justify-content: space-around;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
     color:#234059;
     text-align: center;
-    padding: 35px;
+    padding: 50px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', Arial, Helvetica, sans-serif;
+    margin-left: 200px;
   }
   
   /* Change the color of links on hover */
@@ -69,90 +73,109 @@ nav a:hover{
   }
 .logo {
     width: 100px;
+    padding: 10px;
 }
 .ester{
-    grid-column: 5/6;
+    grid-column: 8;
     grid-row: 3/5;
 }
 .elle{
-    display: grid;
-    grid-column: 1/2;
+    grid-column: 1;
     grid-row: 1/2;
+    padding-left: 100px;
+    padding-top: 25px;
 }
 .ruth{
-    grid-column: 5/7;
-    grid-row: 1/3;    
+    grid-column: 8;
+    grid-row: 1/3;
+    padding-top: 25px;    
 }
 .baby1{
     grid-column: 1/3;
     grid-row: 3/5;
+    padding-top: 25px;
+    padding-left: 100px;
 }
 .baby3{
-    grid-column: 5/7;
+    grid-column: 7;
     grid-row: 3/5;
     padding-top: 50px;
+    padding-left: 100px;
 }
 .baby4{
     grid-column: 1/3;
+    padding-top: 50px;
+    padding-left: 100px;
     
 }
 main{
-    max-width: 1000px;
+    max-width: 1600px;
     max-height: 1000px;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 p{
     display: grid;
 }
 .introduction{
-    grid-column: 3/7;
+    grid-column: 4/10;
     grid-row: 1/3;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
-    padding: 5px;
+    padding-top: 50px;
 }
 .rabbitgeneral{
-    grid-column: 1/5;
+    grid-column: 1/7;
     grid-row: 3/7;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 .rabbithistory{
-    grid-column: 1/5;
+    grid-column: 1/8;
     grid-row: 1/3;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 50px;
 }
 .rexstandard{
-    grid-column: 3/7;
+    grid-column: 3/10;
     grid-row: 3/5;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
-    padding: 5px;
+    padding-top: 50px;
+    padding-left: 150px;
+    
 }
 .housing{
-    grid-column: 3/7;
+    grid-column: 4/10;
     grid-row: 1/3;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
+    padding-top: 100px;
 }
 .food{
-    grid-column: 1/5;
+    grid-column: 1/7;
     grid-row: 3/5;
     font-family: 'quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #234059;
+    padding-top: 100px;
+    padding-left: 100px
 }
 .arba{
     text-align: center;
     padding-top: 50px;
+    grid-row: 5/6;
 }
 .pellet{
     grid-row: 5/6;
